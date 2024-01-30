@@ -1,0 +1,38 @@
+/** @format */
+
+.label {
+  padding: 10px;
+  border: 1px solid;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+.input {
+display: none;
+}
+
+.uploaded_image{
+    height: auto !important;
+}
+.button{
+    /* position: fixed;
+    
+    bottom: 0; */
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.uploaded_content{
+    /* position: relative;
+    display: flex;
+    flex-direction: column; */
+}
+
+.modal_image_container{
+
+}
+.modal_image_container img{
+    width: 100%;
+}
